@@ -25,6 +25,8 @@
 
         <section>
 
-          <div id="carrito" style="background: black; color:white;">
+          <div id="carrito" style="background: rgb(200,200,200); color: black;">
             Carrito
           </div>
+          <a href="php/destruir.php"><button type="button" name="button">Vaciar carrito</button></a>
+          <a href="confirmar.php"><button type="button" name="button">Confirmar compra</button></a><br>

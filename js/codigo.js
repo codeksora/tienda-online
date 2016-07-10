@@ -1,7 +1,8 @@
 $(document).ready(inicio)
 
 function inicio() {
-  $(".botoncompra").click(anade)
+  $(".botoncompra").click(anade);
+  $("#carrito").load("php/poncarrito.php");
 }
 
 function anade() {
