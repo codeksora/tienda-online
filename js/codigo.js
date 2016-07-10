@@ -5,5 +5,5 @@ function inicio() {
 }
 
 function anade() {
-  $("#carrito").load("php/poncarrito.php");
+  $("#carrito").load("php/poncarrito.php?p="+$(this).val());
 }
