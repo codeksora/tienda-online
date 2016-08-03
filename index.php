@@ -16,7 +16,7 @@
       echo "<img src='photo/" . $fila2['imagen'] . "' width=100px>";
     }
     echo "<br>";
-    echo "<a href='producto.php?id=" . $fila['id'] . "'><button>Más información</button></a>";
+    echo "<a href='producto.php?id=" . $fila['id'] . "'><button>Más Información</button></a>";
     echo "<button value='" . $fila['id'] . "' class='botoncompra'>Comprar ahora</button>";
     echo "</article>";
   }
